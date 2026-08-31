@@ -4,7 +4,7 @@ A character-level GPT (Generative Pre-trained Transformer) language model implem
 
 ## Overview
 
-This project trains a small GPT-style model on a plain text corpus and generates new text in the same style, character by character. It's inspired by Andrej Karpathy's "Let's build GPT" walkthrough, implemented independently as a learning exercise.
+This project trains a small GPT-style model on a plain text corpus and generates new text in the same style, character by character.
 
 ## Architecture
 
@@ -77,21 +77,3 @@ step 1000: train loss 1.3946, val loss 1.6054
 step 1500: train loss 1.2670, val loss 1.5291
 step 2000: train loss 1.1861, val loss 1.4979
 ```
-
-## Project structure
-
-```
-.
-├── train.ipynb       # Main training notebook
-├── input.txt          # Training corpus (not included — see Dataset section)
-├── requirements.txt   # Python dependencies
-└── README.md
-```
-
-## Acknowledgements
-
-Architecture and training approach inspired by Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT) and his "Let's build GPT from scratch" tutorial.
-
-## License
-
-MIT
